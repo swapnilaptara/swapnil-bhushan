@@ -1,0 +1,1 @@
+<?php return array(0 => 'files',1 => 'fileExists',2 => 'upload',3 => 'download',4 => 'delete');

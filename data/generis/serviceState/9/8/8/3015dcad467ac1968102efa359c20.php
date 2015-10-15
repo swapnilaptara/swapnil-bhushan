@@ -1,0 +1,1 @@
+<?php return '{"RESPONSE":{"response":{"list":{"identifier":["choice_2"]}}}}';

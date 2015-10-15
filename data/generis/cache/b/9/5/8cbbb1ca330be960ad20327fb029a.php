@@ -1,0 +1,1 @@
+<?php return array('module' => array(0 => 'http://www.tao.lu/Ontologies/TAOSubject.rdf#SubjectsManagerRole'),'actions' => array());

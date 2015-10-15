@@ -1,0 +1,1 @@
+<?php return array(0 => 'index',1 => 'data',2 => 'delete',3 => 'add',4 => 'addInstanceForm',5 => 'checkLogin',6 => 'edit');

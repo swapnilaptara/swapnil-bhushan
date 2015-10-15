@@ -1,0 +1,1 @@
+<?php return array(0 => 'index',1 => 'emptyCache',2 => 'compileJs',3 => 'generatePo',4 => 'createItems',5 => 'createTesttakers',6 => 'createGlobalManager',7 => 'sendSelfMsg');

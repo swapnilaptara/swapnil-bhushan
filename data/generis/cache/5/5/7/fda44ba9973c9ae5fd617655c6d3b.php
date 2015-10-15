@@ -1,0 +1,1 @@
+<?php return array('uri' => 'WRITE','destinationClassUri' => 'WRITE');

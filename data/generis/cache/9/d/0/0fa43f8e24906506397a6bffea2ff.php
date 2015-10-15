@@ -1,0 +1,1 @@
+<?php return array(0 => 'index',1 => 'getModules',2 => 'getActions',3 => 'removeExtensionAccess',4 => 'addExtensionAccess',5 => 'removeModuleAccess',6 => 'addModuleAccess',7 => 'removeActionAccess',8 => 'addActionAccess');

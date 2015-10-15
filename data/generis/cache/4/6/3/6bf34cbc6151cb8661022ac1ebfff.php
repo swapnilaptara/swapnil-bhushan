@@ -1,0 +1,1 @@
+<?php return array(0 => 'getRegisteredImplementations',1 => 'verify',2 => 'add',3 => 'delete',4 => 'getFile',5 => 'addRequiredResources');

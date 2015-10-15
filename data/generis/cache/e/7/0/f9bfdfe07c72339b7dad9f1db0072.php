@@ -1,0 +1,1 @@
+<?php return array(0 => 'getPreviewUrl',1 => 'submitResponses',2 => 'getTemplateElements',3 => 'forwardMe',4 => 'index',5 => 'render');

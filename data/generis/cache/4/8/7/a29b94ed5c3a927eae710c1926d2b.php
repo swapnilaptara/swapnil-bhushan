@@ -1,0 +1,1 @@
+<?php return array(0 => 'entry',1 => 'login',2 => 'logout',3 => 'index',4 => 'isReady');

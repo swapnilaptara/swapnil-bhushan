@@ -1,0 +1,1 @@
+<?php return array(0 => 'index',1 => 'getListsData',2 => 'getListElements',3 => 'saveLists',4 => 'create',5 => 'rename',6 => 'removeList',7 => 'removeListElement');

@@ -1,0 +1,1 @@
+<?php return array(0 => 'save',1 => 'load',2 => 'download');

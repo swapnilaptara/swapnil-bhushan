@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1  http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1.xsd" identifier="i14446555562248106" title="Item title" adaptive="false" timeDependent="false">
+  <responseDeclaration baseType="identifier" cardinality="multiple" identifier="RESPONSE"/>
+  <outcomeDeclaration cardinality="single" baseType="float" identifier="SCORE"/>
+  <stylesheet href="style/custom/tao-user-styles.css" title="" type="text/css" media="all"/>
+  <itemBody>
+    <div class="grid-row">
+      <div class="col-12">
+        <hotspotInteraction maxChoices="0" class="responsive" responseIdentifier="RESPONSE">
+          <prompt/>
+          <object width="101" height="69" type="image/jpeg" data="ans_sol_radiobuttons.jpg"/>
+          <hotspotChoice shape="rect" coords="11,14,27,29" identifier="hotspot_1"/>
+          <hotspotChoice shape="circle" coords="18,46,8" identifier="hotspot_2"/>
+        </hotspotInteraction>
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing template="http://www.imsglobal.org/question/qti_v2p1/rptemplates/match_correct"/>
+</assessmentItem>

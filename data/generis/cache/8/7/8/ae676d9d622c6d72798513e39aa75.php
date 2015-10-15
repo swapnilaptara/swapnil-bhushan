@@ -1,0 +1,1 @@
+<?php return array(0 => 'index',1 => 'create',2 => 'install',3 => 'postInstall',4 => 'disable',5 => 'enable',6 => 'uninstall');
