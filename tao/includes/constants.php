@@ -30,9 +30,9 @@
  *
  */
 #TAO version number
-define('TAO_VERSION', '3.0.0');
+define('VERSION', '1.0');
 
-$version = TAO_VERSION;
+$version = VERSION;
 
 #TAO version label
 if(is_readable(ROOT_PATH.'build')){
@@ -43,7 +43,7 @@ if(is_readable(ROOT_PATH.'build')){
 define('TAO_VERSION_NAME', $version);
 
 #the name to display
-define('PRODUCT_NAME', 'TAO');
+define('PRODUCT_NAME', 'Aptara Assess');
 
 #TAO release status, use to add specific footer to TAO, available alpha, beta, demo, stable
 define('TAO_RELEASE_STATUS', 'stable');

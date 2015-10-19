@@ -1,12 +1,10 @@
 <?php
 use oat\tao\helpers\Template;
 ?>
-<!--
 <header class="section-header flex-container-full">
     <h2><?=get_data('formTitle')?></h2>
-</header>-->
+</header>
 <div class="main-container flex-container-main-form">
-<div class="edit-header"><?=get_data('formTitle')?></div>
     <?php if(has_data('lockDate')) : ?>
         <div id="lock-box"
             data-id="<?= get_data('id') ?>"

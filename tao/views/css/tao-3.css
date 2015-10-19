@@ -79,7 +79,8 @@
     width: 100%
 }
 .dark-bar nav li ul li a {
-    background: #333;
+    background: #336699;
+	color:#ffffff;
     text-align: left;
     display: block;
     height: auto;
@@ -96,7 +97,7 @@
 .dark-bar nav .main-menu li ul,
 .dark-bar nav .settings-menu li ul {
     min-width: 130px;
-    background: #333;
+    background: #336699;
     position: absolute;
     left: 0px;
     border-top: 1px solid #666;

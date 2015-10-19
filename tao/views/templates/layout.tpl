@@ -5,7 +5,6 @@ use oat\tao\helpers\Layout;
 <!doctype html>
 <html class="no-js">
 <head>
-
 	<!-- Compiled and minified CSS -->
 	<link rel="stylesheet" href="<?= Template::css('materialize.min.css','tao') ?>" />
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

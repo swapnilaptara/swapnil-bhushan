@@ -20,7 +20,7 @@ return array(
     'default' => array(
         'driver' => 'pdo_mysql',
         'host' => 'localhost',
-        'dbname' => 'tao_db',
+        'dbname' => 'tao_base',
         'user' => 'root',
         'password' => '',
     ),

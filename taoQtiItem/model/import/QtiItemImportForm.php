@@ -51,7 +51,7 @@ class QtiItemImportForm
     {
     	$this->form = new tao_helpers_form_xhtml_Form('export');
     	$submitElt = tao_helpers_form_FormFactory::getElement('import', 'Free');
-		$submitElt->setValue('<a href="#" class="form-submitter btn-success small"><span class="icon-import"></span> ' .__('Import').'</a>');
+		$submitElt->setValue('<a href="#" class="form-submitter small li-inner waves-effect waves-light btn btn_small"><span class="icon-import"></span> ' .__('Import').'</a>');
 
 		$this->form->setActions(array($submitElt), 'bottom');
 		$this->form->setActions(array(), 'top');

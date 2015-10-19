@@ -1,7 +1,7 @@
 <div class="splash-screen-wrapper tao-scope">
     <div id="splash-screen" class="modal splash-modal">
         <div class="modal-title">
-            <?=__('Get started with TAO')?>
+            <?=__('Get started with Aptara Assess')?>
         </div>
         <ul class="modal-nav plain clearfix">
             <li class="active"><a href="#" data-panel="overview"><?=__('Overview')?></a></li>
@@ -10,11 +10,11 @@
         <div class="splash-content-wrap">
             <div class="modal-content">
                 <div class="panels" data-panel-id="overview" style="display: block;">
-                    <p><?=__('Discover how easy it is to create an assessment with TAO!')?></p>
+                    <p><?=__('Discover how easy it is to create an assessment with Aptara Assess!')?></p>
                     <?php $extensions = get_data('defaultExtensions')?>
                     <div class="diagram">
                         <div class="grid-row">
-                            <div class="col-6">
+                            <div class="col-12">
                                 <a href="#"
                                    class="block pentagon<?php if(!$extensions['items']['enabled']): ?> disabled<?php endif ?>"
                                    data-module-name="items"
@@ -23,7 +23,9 @@
                                     <?=__($extensions['items']['name'])?>
                                 </a>
                             </div>
-                            <div class="col-6">
+                        </div>
+                        <div class="grid-row">
+                            <div class="col-12">
                                 <a href="#"
                               class="block pentagon <?php if(!$extensions['TestTaker']['enabled']): ?> disabled<?php endif ?>" 
                               data-module-name="TestTaker"
@@ -34,7 +36,7 @@
                             </div>
                         </div>
                         <div class="grid-row">
-                            <div class="col-6">
+                            <div class="col-12">
                                 <a href="#"
                                    class="block pentagon<?php if(!$extensions['tests']['enabled']): ?> disabled<?php endif ?>"
                                    data-module-name="tests"
@@ -43,7 +45,9 @@
                                     <?=__($extensions['tests']['name'])?>
                                 </a>
                             </div>
-                            <div class="col-6">
+                        </div>
+                        <div class="grid-row">
+                            <div class="col-12">
                                 <a href="#"
                                    class="block pentagon<?php if(!$extensions['groups']['enabled']): ?> disabled<?php endif ?>"
                                    data-module-name="groups"
@@ -56,7 +60,7 @@
                         <div class="grid-row">
                             <div class="col-12">
                                 <a href="#"
-                                   class="block pentagon wide<?php if(!$extensions['delivery']['enabled']): ?> disabled<?php endif ?>"
+                                   class="block pentagon<?php if(!$extensions['delivery']['enabled']): ?> disabled<?php endif ?>"
                                    data-module-name="delivery"
                                    data-url="<?=_url('index', 'Main', 'taoCe', array('structure' => 'delivery', 'ext' => $extensions['delivery']['extension']))?>">
                                     <span class="icon-delivery"></span>
@@ -67,7 +71,7 @@
                         <div class="grid-row">
                             <div class="col-12">
                                 <a href="#"
-                                   class="block wide<?php if(!$extensions['results']['enabled']): ?> disabled<?php endif ?>"
+                                   class="block pentagon<?php if(!$extensions['results']['enabled']): ?> disabled<?php endif ?>"
                                    data-module-name="results"
                                    data-url="<?=_url('index', 'Main', 'taoCe', array('structure' => 'results', 'ext' => $extensions['results']['extension']))?>">
                                     <span class="icon-result"></span>

@@ -30,7 +30,6 @@ use \tao_helpers_Scriptloader;
 
 class Layout{
 
-
     /**
      * Compute the parameters for the release message
      *
@@ -173,9 +172,8 @@ class Layout{
      */
     public static function getTitle() {
         $title = get_data('title');
-        return $title ? $title : PRODUCT_NAME . ' ' .  TAO_VERSION;
+        return $title ? $title : PRODUCT_NAME . ' - ' .  VERSION;
     }
-
 
     /**
      * Retrieve the template with the actual content

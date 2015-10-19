@@ -37,7 +37,7 @@ class taoDelivery_actions_form_WizardForm
         $this->form = new tao_helpers_form_xhtml_Form('simpleWizard');
         
         $createElt = \tao_helpers_form_FormFactory::getElement('create', 'Free');
-		$createElt->setValue('<button class="form-submitter btn-success small" type="button"><span class="icon-publish"></span> ' .__('Publish').'</button>');
+		$createElt->setValue('<button class="form-submitter small li-inner waves-effect waves-light btn btn_small" type="button"><span class="icon-publish"></span> ' .__('Publish').'</button>');
 		$this->form->setActions(array(), 'top');
 		$this->form->setActions(array($createElt), 'bottom');
 

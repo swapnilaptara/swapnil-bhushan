@@ -14,4 +14,4 @@
  * 
  * @see core_kernel_uri_UriService
  */
-return new core_kernel_uri_DatabaseSerialUriProvider(array('persistence' => 'default','namespace' => 'http://localhost/TAO/tao.rdf#'));
+return new core_kernel_uri_DatabaseSerialUriProvider(array('persistence' => 'default','namespace' => 'http://localhost/TAO_3.0.0_build/tao.rdf#'));

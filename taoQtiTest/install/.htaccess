@@ -5,5 +5,5 @@ RewriteCond %{REQUEST_URI} !/css/ [NC]
 RewriteCond %{REQUEST_URI} !/js/ [NC]
 RewriteCond %{REQUEST_URI} !/images/ [NC]
 RewriteCond %{REQUEST_URI} !/production.html [NC]
-RewriteRule ^.*$ http://localhost/TAO/tao/install/production.html
+RewriteRule ^.*$ http://localhost/TAO_3.0.0_build/tao/install/production.html
 </IfModule>

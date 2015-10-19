@@ -17,7 +17,7 @@ use oat\tao\helpers\Template;
     <div class="action-bar plain content-action-bar horizontal-action-bar">
         <ul class="action-group plain clearfix authoring-back-box item-editor-menu">
             <li id="authoringBack" class="btn-info small">
-            <span class="waves-effect waves-light btn li-inner">
+            <span class="li-inner">
                 <span class="icon-left"></span>
                 <?= __('Manage Items') ?>
             </span>
@@ -33,19 +33,19 @@ use oat\tao\helpers\Template;
         <ul class="plain item-editor-menu action-group">
 
             <li id="save-trigger" class="btn-info small">
-            <span class="waves-effect waves-light btn li-inner">
+            <span class="li-inner">
                 <span class="icon-save"></span>
                 <?= __('Save') ?>
             </span>
             </li>
-            <li id="preview-trigger" class="preview-trigger btn-info small">
-            <span class="waves-effect waves-light btn li-inner">
+            <li class="preview-trigger btn-info small">
+            <span class="li-inner">
                 <span class="icon-preview"></span>
                 <?= __('Preview') ?>
             </span>
             </li>
             <li id="print-trigger" class="btn-info small">
-            <span class="waves-effect waves-light btn li-inner">
+            <span class="li-inner">
                 <span class="icon-print"></span>
                 <?= __('Print') ?>
             </span>
@@ -65,7 +65,7 @@ use oat\tao\helpers\Template;
 <div class="action-bar content-action-bar horizontal-action-bar">
     <ul class="action-group plain clearfix item-editor-menu plain">
         <li id="appearance-trigger" class="btn-info small rgt">
-                    <span class="waves-effect waves-light btn li-inner">
+                    <span class="li-inner">
                         <span class="icon-item"></span>
                         <span class="icon-style"></span>
                         <span class="menu-label" data-item="<?= __('Item properties') ?>" data-style="<?= __('Style Editor') ?>"><?= __('Style Editor') ?></span>

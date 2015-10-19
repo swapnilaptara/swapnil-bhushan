@@ -6,7 +6,7 @@
  */
 
 return array(
-    'private' => 'http://localhost/TAO/tao.rdf#i144463386257563',
-    'public' => 'http://localhost/TAO/tao.rdf#i144463386265192',
-    'provider' => '561b5d06c323e',
+    'private' => 'http://localhost/TAO_3.0.0_build/tao.rdf#i14448364249753',
+    'public' => 'http://localhost/TAO_3.0.0_build/tao.rdf#i144483642445592',
+    'provider' => '561e7448aeb7f',
 );

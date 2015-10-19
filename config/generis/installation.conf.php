@@ -69,9 +69,5 @@ return array(
     'taoCe' => array(
         'installed' => '1.1.1',
         'enabled' => true,
-    ),
-    'taoDevTools' => array(
-        'installed' => '2.6',
-        'enabled' => false,
     ),
 );

@@ -72,7 +72,7 @@ class ExportForm
 		));
 
     	$exportElt = tao_helpers_form_FormFactory::getElement('export', 'Free');
-		$exportElt->setValue('<a href="#" class="form-submitter btn-success small"><span class="icon-export"></span> ' .__('Export').'</a>');
+		$exportElt->setValue('<a href="#" class="form-submitter small li-inner waves-effect waves-light btn btn_small"><span class="icon-export"></span> ' .__('Export').'</a>');
 
 		$this->form->setActions(array($exportElt), 'bottom');
         

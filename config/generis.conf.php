@@ -32,15 +32,15 @@
 
 
 # local namespace
-define('LOCAL_NAMESPACE','http://localhost/TAO/tao.rdf');
+define('LOCAL_NAMESPACE','http://localhost/TAO_3.0.0_build/tao.rdf');
 
 # platform identification
 define('GENERIS_INSTANCE_NAME','tao');
-define('GENERIS_SESSION_NAME','tao_kVn8ILxX');
+define('GENERIS_SESSION_NAME','tao_9ewsg5A0');
 
 # paths
-define('ROOT_PATH','D:\\Xampp\\htdocs\\TAO\\');
-define('ROOT_URL','http://localhost/TAO/');
+define('ROOT_PATH','D:\\Xampp\\htdocs\\TAO_3.0.0_build\\');
+define('ROOT_URL','http://localhost/TAO_3.0.0_build/');
 
 # language
 define('DEFAULT_LANG','en-US');
@@ -67,7 +67,7 @@ define('USE_HTTP_PASS', '');
 #generis paths
 define('VENDOR_PATH' , ROOT_PATH.DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR);
 define('EXTENSION_PATH' , ROOT_PATH);
-define('FILES_PATH','D:\\Xampp\\htdocs\\TAO\\data\\');
+define('FILES_PATH','D:\\Xampp\\htdocs\\TAO_3.0.0_build\\data\\');
 define('GENERIS_CACHE_PATH', FILES_PATH.'generis'.DIRECTORY_SEPARATOR.'cache'.DIRECTORY_SEPARATOR);
 
 #path to read configs from
